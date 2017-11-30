@@ -1,3 +1,4 @@
+/home/thiago/Desenvolvimento/workspace/app-back-util/src/main/java/br/com/util/service/EmailService.java
 /home/thiago/Desenvolvimento/workspace/app-back-util/src/main/java/br/com/util/utilities/MyHibernateUtils.java
 /home/thiago/Desenvolvimento/workspace/app-back-util/src/main/java/br/com/util/exceptions/InvalidRequestException.java
 /home/thiago/Desenvolvimento/workspace/app-back-util/src/main/java/br/com/util/json/bean/FuncionalidadePropagavel.java
@@ -5,6 +6,7 @@
 /home/thiago/Desenvolvimento/workspace/app-back-util/src/main/java/br/com/util/exceptions/GenericRuntimeException.java
 /home/thiago/Desenvolvimento/workspace/app-back-util/src/main/java/br/com/util/entity/AcessoFuncionalidade.java
 /home/thiago/Desenvolvimento/workspace/app-back-util/src/main/java/br/com/util/exceptions/MissingFieldsFilledException.java
+/home/thiago/Desenvolvimento/workspace/app-back-util/src/main/java/br/com/util/service/GenericService.java
 /home/thiago/Desenvolvimento/workspace/app-back-util/src/main/java/br/com/util/exceptions/GenericServiceException.java
 /home/thiago/Desenvolvimento/workspace/app-back-util/src/main/java/br/com/util/enums/StatusUsuario.java
 /home/thiago/Desenvolvimento/workspace/app-back-util/src/main/java/br/com/util/annotations/Documento.java
@@ -23,6 +25,7 @@
 /home/thiago/Desenvolvimento/workspace/app-back-util/src/main/java/br/com/util/security/Token.java
 /home/thiago/Desenvolvimento/workspace/app-back-util/src/main/java/br/com/util/repository/AcessoFuncionalidadeRepository.java
 /home/thiago/Desenvolvimento/workspace/app-back-util/src/main/java/br/com/util/utilities/Cet.java
+/home/thiago/Desenvolvimento/workspace/app-back-util/src/main/java/br/com/util/service/AcessoFuncionalidadeService.java
 /home/thiago/Desenvolvimento/workspace/app-back-util/src/main/java/br/com/util/repository/AcessoGrupoFuncionalidadeRepository.java
 /home/thiago/Desenvolvimento/workspace/app-back-util/src/main/java/br/com/util/entity/AcessoGrupoFuncionalidade.java
 /home/thiago/Desenvolvimento/workspace/app-back-util/src/main/java/br/com/util/json/bean/UpdateUsuario.java
