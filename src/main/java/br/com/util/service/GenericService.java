@@ -8,6 +8,8 @@ import java.util.Set;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.BeanWrapper;
 import org.springframework.beans.BeanWrapperImpl;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public class GenericService<T, ID extends Serializable> {
@@ -32,6 +34,10 @@ public class GenericService<T, ID extends Serializable> {
     
     public <S extends T> List<T> findAll() {
         return repository.findAll();
+    }
+    
+    public <S extends T> Page<T> findAll(int page, int size) {
+        return repository.findAll(new PageRequest(page, size));
     }
     
     public static void copyNonNullProperties(Object src, Object target) {
